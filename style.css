@@ -1,11 +1,25 @@
 * {
-    background-color: darkolivegreen;
-}
-.heading {
-    background-color: brown;
+    box-sizing: border-box;
+    outline: 2px solid;
+    background-color: beige
 }
 
-a {
-color: beige;
-background-color: rgb(128, 76, 12);
+.heading {
+    text-align: center;
+}
+
+.recipes {
+    padding: 8px;
+    list-style-type: none;
+}
+
+li {
+    padding: 8px;
+    margin: 3px;
+}
+
+.recipe {
+    background-color: aqua;
+    padding: 8px;
+    margin: 3px
 }
